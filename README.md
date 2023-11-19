@@ -1,6 +1,6 @@
 # realtime-stable-diffusion_Docker
 
-![](https://github.com/Sunwood-ai-labs/realtime-stable-diffusion_Docker/blob/main/image/screenshot.png)
+
 
 # はじめに
 
@@ -8,6 +8,11 @@
 ## 必要なもの
 - Dockerがインストールされたコンピューター
 - 基本的なコマンドラインの知識
+
+解説記事はこちら
+
+https://hamaruki.com/real-time-drawing-tool-realtime-stable-diffusion_docker-setup-guide/
+
 ## セットアップ手順
 ### Step 1: プロジェクトのクローン
 
@@ -47,3 +52,11 @@ realtime-stable-diffusion_docker-realtime-stable-diffusion-1  | Running on publi
 
 これで、realtime-stable-diffusionを使ってリアルタイムでお絵描きを楽しむことができます。
 
+![](https://github.com/Sunwood-ai-labs/realtime-stable-diffusion_Docker/blob/main/image/screenshot.png)
+
+
+## メンテナンス用コマンド
+
+```
+docker-compose exec realtime-stable-diffusion /bin/bash
+```
