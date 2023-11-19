@@ -96,15 +96,19 @@ with gr.Blocks(css="style.css", title=f"Realtime Latent Consistency Model") as d
 
     gr.HTML(f'<div style="width: 70px;">{LOGO}</div>')
     gr.Markdown(DESCRIPTION)
+
+    # スライダーを追加
+    brush_radius_slider = gr.Slider(label="Brush Radius", minimum=10.0, maximum=100.0, step=1.0, value=40.0)
+
     with gr.Row(variant="default"):
         input_image = gr.Image(
-            # tool="color-sketch",
+            tool="color-sketch",
             source="canvas",
             label="Initial Image",
             type="pil",
             height=512,
             width=512,
-            brush_radius=40.0,
+            brush_radius=brush_radius_slider,  # スライダーを参照
         )
 
         output_image = gr.Image(
