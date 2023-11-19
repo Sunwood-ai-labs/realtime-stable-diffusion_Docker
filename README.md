@@ -1,6 +1,6 @@
 # realtime-stable-diffusion_Docker
 
-![](image\screenshot.png)
+![](https://github.com/Sunwood-ai-labs/realtime-stable-diffusion_Docker/blob/main/image/screenshot.png)
 
 # はじめに
 
