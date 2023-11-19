@@ -1,0 +1,5 @@
+accelerate==0.21.0
+diffusers[torch]
+transformers==4.30.2
+xformers
+gradio[oauth]==3.50.2

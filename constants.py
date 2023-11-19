@@ -1,10 +1,12 @@
-import os
-
 DESCRIPTION = """
-# Real Time Latent Consistency Model Hosted on [fal.ai](https://fal.ai)
-"""
+# Real Time Latent Consistency Model
 
-WS_ADDRESS = os.environ["WS_ADDRESS"]
+This space is using a **CPU runtime**, and it takes about 30 seconds to generate an image.
+For a faster experience, you can duplicate it and use with a **GPU runtime**.
+
+At the meantime you can use **[dynamic 🔥](https://www.fal.ai/dynamic)** by [fal](fal.ai), or **[a hosted space 🤗](https://huggingface.co/spaces/fal-ai/realtime-stable-diffusion)** 
+to generate images in real time.
+"""
 
 
 LOGO = """

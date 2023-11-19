@@ -6,14 +6,14 @@ services:
       context: .
       dockerfile: Dockerfile
     volumes:
-      - .:/content
-
-    # ports:
-    #   - 1234:1234
+      - .:/root
+    command: python3 app.py
+    ports:
+      - 7860:7860
     tty:
       true
 
-    working_dir: /content
+    working_dir: /root
     deploy:
       resources:
         reservations:
