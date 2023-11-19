@@ -7,7 +7,7 @@ services:
       dockerfile: Dockerfile
     volumes:
       - .:/root
-    command: python3 app.py
+    # command: python3 app.py
     ports:
       - 7860:7860
     tty:
