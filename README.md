@@ -1,6 +1,6 @@
 # realtime-stable-diffusion_Docker
 
-
+![](https://github.com/Sunwood-ai-labs/realtime-stable-diffusion_Docker/blob/main/image/paint.png)
 
 # はじめに
 
