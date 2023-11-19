@@ -14,7 +14,7 @@
 まず、GitHubからrealtime-stable-diffusionのリポジトリをクローンします。これには以下のコマンドを使用します。
 
 ```bash
-git clone [リポジトリのURL]
+git clone https://github.com/Sunwood-ai-labs/realtime-stable-diffusion_Docker.git
 cd realtime-stable-diffusion
 ```
 
